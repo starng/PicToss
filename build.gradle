@@ -1,0 +1,12 @@
+apply plugin: "java"
+apply plugin: "application"
+
+repositories{
+   mavenCentral()
+}
+
+dependencies {
+   compile "com.sparkjava:spark-core:2.1"
+}
+
+mainClassName = "org.pictoss.helloWorld"
