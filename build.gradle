@@ -7,6 +7,7 @@ repositories{
 
 dependencies {
    compile "com.sparkjava:spark-core:2.1"
+   compile "com.google.guava:guava:17.0"
 }
 
-mainClassName = "org.pictoss.helloWorld"
+mainClassName = "org.pictoss.FileServlet"
